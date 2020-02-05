@@ -46,10 +46,15 @@
             <artifactId>janusgraph-es</artifactId>
             <version>${janusgraph.version}</version>
         </dependency>
-
+        <dependency>
+           <groupId>com.tinkerpop.blueprints</groupId>
+           <artifactId>blueprints-core</artifactId>
+           <version>2.6.0</version>
+        </dependency>
 	</dependencies>
 	<build>
 		<plugins>
+<<<<<<< HEAD
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -61,6 +66,40 @@
 					</archive>
 				</configuration>
 			</plugin>
+=======
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                           <addClasspath>true</addClasspath>
+                           <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>it.unimib.disco.janusgraphac.application.Runable</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>2.1</version>
+        <executions>
+          <execution>
+            <id>copy-dependencies</id>
+            <phase>package</phase>
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/lib</outputDirectory>
+              <overWriteReleases>false</overWriteReleases>
+              <overWriteSnapshots>false</overWriteSnapshots>
+              <overWriteIfNewer>true</overWriteIfNewer>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+>>>>>>> d5399044c239092a80219fd5b9ca96cbbc54f8ad
 		</plugins>
 	</build>
 </project>

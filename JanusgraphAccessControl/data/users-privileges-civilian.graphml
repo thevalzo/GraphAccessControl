@@ -20,49 +20,79 @@
 <node id='0'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
+<<<<<<< HEAD
     <data key='name'>Alan Turing</data>
+=======
+    <data key='username'>Alan Turing</data>
+>>>>>>> d5399044c239092a80219fd5b9ca96cbbc54f8ad
     <data key='password'>password</data>
     <data key='level'>3</data>
 </node>
 <node id='1'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
+<<<<<<< HEAD
     <data key='name'>Katherine Johnson</data>
+=======
+    <data key='username'>Katherine Johnson</data>
+>>>>>>> d5399044c239092a80219fd5b9ca96cbbc54f8ad
     <data key='password'>password</data>
     <data key='level'>2</data>
 </node>
 <node id='2'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
+<<<<<<< HEAD
     <data key='name'>Albert Einstein</data>
+=======
+    <data key='username'>Albert Einstein</data>
+>>>>>>> d5399044c239092a80219fd5b9ca96cbbc54f8ad
     <data key='password'>password</data>
     <data key='level'>3</data>
 </node>
 <node id='3'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
+<<<<<<< HEAD
     <data key='name'>Enrico Fermi</data>
+=======
+    <data key='username'>Enrico Fermi</data>
+>>>>>>> d5399044c239092a80219fd5b9ca96cbbc54f8ad
     <data key='password'>password</data>
     <data key='level'>2</data>
 </node>
 <node id='4'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
+<<<<<<< HEAD
     <data key='name'>Margherita Hack</data>
+=======
+    <data key='username'>Margherita Hack</data>
+>>>>>>> d5399044c239092a80219fd5b9ca96cbbc54f8ad
     <data key='password'>password</data>
     <data key='level'>3</data>
 </node>
 <node id='5'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
+<<<<<<< HEAD
     <data key='name'>Rita Levi Montalcini</data>
     <data key='password'>password</data>
     <data key='level'>3</data>
+=======
+    <data key='username'>Rita Levi Montalcini</data>
+    <data key='password'>password</data>
+    <data key='level'>2</data>
+>>>>>>> d5399044c239092a80219fd5b9ca96cbbc54f8ad
 </node>
 <node id='6'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
+<<<<<<< HEAD
     <data key='name'>Alexander Fleming</data>
+=======
+    <data key='username'>Alexander Fleming</data>
+>>>>>>> d5399044c239092a80219fd5b9ca96cbbc54f8ad
     <data key='password'>password</data>
     <data key='level'>3</data>
 </node>
