@@ -1,0 +1,427 @@
+<?xml version='1.0' ?>
+<graphml xmlns='http://graphml.graphdrawing.org/xmlns'>
+<key id='name'    for='node' attr.name='name'    attr.type='string'></key>
+<key id='iri'    for='node' attr.name='iri'    attr.type='string'></key>
+<key id='comment'    for='node' attr.name='comment'    attr.type='string'></key>
+<key id='closure'    for='node' attr.name='closure'    attr.type='list'></key>
+<key id='password'    for='node' attr.name='password'    attr.type='string'></key>
+<key id='groupname'    for='node' attr.name='groupname'    attr.type='string'></key>
+<key id='rolename'    for='node' attr.name='rolename'    attr.type='string'></key>
+<key id='level'    for='node' attr.name='level'    attr.type='int'></key>
+<key id='label_vp'  for='node' attr.name='label_vp'  attr.type='string'></key>
+<key id='type'  for='node' attr.name='type'  attr.type='string'></key>
+<key id='access_rights'  for='node' attr.name='access_rights'  attr.type='string'></key>
+<key id='level'  for='edge' attr.name='level'  attr.type='int'></key>
+<key id='access_rights'  for='edge' attr.name='access_rights'  attr.type='string'></key>
+<key id='label_ep'  for='edge' attr.name='label_ep'  attr.type='string'></key>
+<key id='label'  for='edge' attr.name='label'  attr.type='string'></key>
+<key id='labelE'  for='edge' attr.name='labelE'  attr.type='string'></key>
+<graph id='routes' edgedefault='directed'>
+<node id='0'>
+    <data key='labelV'>user</data>
+    <data key='label_vp'>user</data>
+    <data key='name'>Alan Turing</data>
+    <data key='password'>password</data>
+    <data key='level'>3</data>
+</node>
+<node id='1'>
+    <data key='labelV'>user</data>
+    <data key='label_vp'>user</data>
+    <data key='name'>Katherine Johnson</data>
+    <data key='password'>password</data>
+    <data key='level'>2</data>
+</node>
+<node id='2'>
+    <data key='labelV'>user</data>
+    <data key='label_vp'>user</data>
+    <data key='name'>Albert Einstein</data>
+    <data key='password'>password</data>
+    <data key='level'>3</data>
+</node>
+<node id='3'>
+    <data key='labelV'>user</data>
+    <data key='label_vp'>user</data>
+    <data key='name'>Enrico Fermi</data>
+    <data key='password'>password</data>
+    <data key='level'>2</data>
+</node>
+<node id='4'>
+    <data key='labelV'>user</data>
+    <data key='label_vp'>user</data>
+    <data key='name'>Margherita Hack</data>
+    <data key='password'>password</data>
+    <data key='level'>3</data>
+</node>
+<node id='5'>
+    <data key='labelV'>user</data>
+    <data key='label_vp'>user</data>
+    <data key='name'>Rita Levi Montalcini</data>
+    <data key='password'>password</data>
+    <data key='level'>3</data>
+</node>
+<node id='6'>
+    <data key='labelV'>user</data>
+    <data key='label_vp'>user</data>
+    <data key='name'>Alexander Fleming</data>
+    <data key='password'>password</data>
+    <data key='level'>3</data>
+</node>
+<node id='10'>
+    <data key='rolename'>Direttore</data>
+    <data key='labelV'>role</data>
+    <data key='label_vp'>role</data>
+    <data key='level'>0</data>
+</node>
+<node id='11'>
+    <data key='groupname'>Universita del Mondo</data>
+    <data key='labelV'>group</data>
+    <data key='label_vp'>group</data>
+    <data key='level'>0</data>
+</node>
+<node id='12'>
+    <data key='groupname'>Facolta di Scienza</data>
+    <data key='labelV'>group</data>
+    <data key='label_vp'>group</data>
+    <data key='level'>0</data>
+</node>
+<node id='13'>
+    <data key='groupname'>Facolta di Medicina</data>
+    <data key='labelV'>group</data>
+    <data key='label_vp'>group</data>
+    <data key='level'>0</data>
+</node>
+<node id='14'>
+    <data key='groupname'>Dipartimento di Informatica</data>
+    <data key='labelV'>group</data>
+    <data key='label_vp'>group</data>
+    <data key='level'>0</data>
+</node>
+<node id='15'>
+    <data key='groupname'>Dipartimento di Fisica</data>
+    <data key='labelV'>group</data>
+    <data key='label_vp'>group</data>
+    <data key='level'>0</data>
+</node>
+<edge id='28' source='1' target='14'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='29' source='1' target='12'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='30' source='1' target='11'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='31' source='0' target='14'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='32' source='0' target='12'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='33' source='0' target='11'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='34' source='4' target='12'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='35' source='4' target='11'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='36' source='2' target='12'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='37' source='2' target='11'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='38' source='2' target='15'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='39' source='3' target='12'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='40' source='3' target='11'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='41' source='3' target='15'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='42' source='5' target='13'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='43' source='5' target='11'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='44' source='6' target='13'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='45' source='6' target='11'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='46' source='0' target='10'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='47' source='2' target='10'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='48' source='6' target='10'>
+    <data key='labelE'>part_of</data>
+    <data key='label_ep'>part_of</data>
+    <data key='level'>0</data>
+</edge>
+<node id='16'>
+    <data key='label_vp'>Ontology</data>
+    <data key='name'>Journal</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>0</data>
+</node>
+<node id='17'>
+    <data key='label_vp'>Ontology</data>
+    <data key='name'>Conference</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>0</data>
+</node>
+<node id='18'>
+    <data key='label_vp'>Ontology</data>
+    <data key='name'>Article</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>0</data>
+</node>
+<node id='19'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>journal</data>
+    <data key='name'>Journal of Computer Science</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>1</data>
+</node>
+<node id='20'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>article</data>
+    <data key='name'>Paper 1</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>2</data>
+</node>
+<node id='21'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>article</data>
+    <data key='name'>Paper 2</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>2</data>
+</node>
+<node id='22'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>journal</data>
+    <data key='name'>Journal of Artificial Intelligence</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>1</data>
+</node>
+<node id='23'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>article</data>
+    <data key='name'>Paper 3</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>3</data>
+</node>
+<node id='24'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>article</data>
+    <data key='name'>Paper 4</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>2</data>
+</node>
+<node id='25'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>conference</data>
+    <data key='name'>Conference of Medicine</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>1</data>
+</node>
+<node id='26'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>article</data>
+    <data key='name'>Paper 5</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>3</data>
+</node>
+<node id='27'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>article</data>
+    <data key='name'>Paper 6</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>2</data>
+</node>
+<node id='28'>
+    <data key='labelV'>resource</data>
+    <data key='label_vp'>resource</data>
+    <data key='type'>attachment</data>
+    <data key='name'>Table 1</data>
+    <data key='iri'></data>
+    <data key='comment'></data>
+    <data key='level'>2</data>
+</node>
+<edge id='49' source='16' target='18'>
+    <data key='label_ep'>extends_rights</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='50' source='17' target='18'>
+    <data key='label_ep'>extends_rights</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='51' source='19' target='16'>
+    <data key='label_ep'>rdf:type</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='52' source='22' target='16'>
+    <data key='label_ep'>rdf:type</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='53' source='25' target='17'>
+    <data key='label_ep'>rdf:type</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='54' source='20' target='18'>
+    <data key='label_ep'>rdf:type</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='55' source='21' target='18'>
+    <data key='label_ep'>rdf:type</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='56' source='26' target='18'>
+    <data key='label_ep'>rdf:type</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='57' source='27' target='18'>
+    <data key='label_ep'>rdf:type</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='58' source='23' target='18'>
+    <data key='label_ep'>rdf:type</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='59' source='24' target='18'>
+    <data key='label_ep'>rdf:type</data>
+    <data key='level'>0</data>
+</edge>
+<edge id='60' source='19' target='20'>
+    <data key='labelE'>publish</data>
+    <data key='label_ep'>publish</data>
+    <data key='access_rights'>extends_rights</data>   
+    <data key='level'>0</data>
+</edge>
+<edge id='61' source='19' target='21'>
+    <data key='labelE'>publish</data>
+    <data key='label_ep'>publish</data>
+    <data key='access_rights'>extends_rights</data>   
+    <data key='level'>0</data>
+</edge>
+<edge id='62' source='22' target='23'>
+    <data key='labelE'>publish</data>
+    <data key='label_ep'>publish</data>
+    <data key='access_rights'>extends_rights</data>   
+    <data key='level'>0</data>
+</edge>
+<edge id='63' source='22' target='24'>
+    <data key='labelE'>publish</data>
+    <data key='label_ep'>publish</data>
+    <data key='access_rights'>extends_rights</data>   
+    <data key='level'>0</data>
+</edge>
+<edge id='64' source='25' target='26'>
+    <data key='labelE'>publish</data>
+    <data key='label_ep'>publish</data>
+    <data key='access_rights'>extends_rights</data>   
+    <data key='level'>0</data>
+</edge>
+<edge id='65' source='25' target='27'>
+    <data key='labelE'>publish</data>
+    <data key='label_ep'>publish</data>
+    <data key='access_rights'>extends_rights</data>   
+    <data key='level'>0</data>
+</edge>
+<edge id='66' source='24' target='28'>
+    <data key='labelE'>has_attachment</data>
+    <data key='label_ep'>has_attachment</data>
+    <data key='access_rights'>extends_rights</data>   
+    <data key='level'>0</data>
+</edge>
+<!-- Edges for civil access model-->
+<edge id='67' source='13' target='22'>
+    <data key='label_ep'>access_rights</data>
+    <data key='labelE'>access_rights</data> 
+    <data key='access_rights'>cannot</data>   
+    <data key='level'>0</data>
+</edge>
+<edge id='68' source='5' target='24'>
+    <data key='label_ep'>access_rights</data>
+    <data key='labelE'>access_rights</data>  
+    <data key='access_rights'>can</data>   
+    <data key='level'>0</data>
+</edge>
+<edge id='69' source='14' target='25'>
+    <data key='label_ep'>access_rights</data>
+    <data key='labelE'>access_rights</data>  
+    <data key='access_rights'>cannot</data>   
+    <data key='level'>0</data>
+</edge>
+</graph>
+</graphml>
