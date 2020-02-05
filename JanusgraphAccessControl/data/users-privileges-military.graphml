@@ -1,6 +1,7 @@
 <?xml version='1.0' ?>
 <graphml xmlns='http://graphml.graphdrawing.org/xmlns'>
 <key id='name'    for='node' attr.name='name'    attr.type='string'></key>
+<key id='username'    for='node' attr.name='username'    attr.type='string'></key>
 <key id='iri'    for='node' attr.name='iri'    attr.type='string'></key>
 <key id='comment'    for='node' attr.name='comment'    attr.type='string'></key>
 <key id='closure'    for='node' attr.name='closure'    attr.type='list'></key>
@@ -20,49 +21,49 @@
 <node id='0'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
-    <data key='name'>Alan Turing</data>
+    <data key='username'>Alan Turing</data>
     <data key='password'>password</data>
     <data key='level'>3</data>
 </node>
 <node id='1'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
-    <data key='name'>Katherine Johnson</data>
+    <data key='username'>Katherine Johnson</data>
     <data key='password'>password</data>
     <data key='level'>2</data>
 </node>
 <node id='2'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
-    <data key='name'>Albert Einstein</data>
+    <data key='username'>Albert Einstein</data>
     <data key='password'>password</data>
     <data key='level'>3</data>
 </node>
 <node id='3'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
-    <data key='name'>Enrico Fermi</data>
+    <data key='username'>Enrico Fermi</data>
     <data key='password'>password</data>
     <data key='level'>2</data>
 </node>
 <node id='4'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
-    <data key='name'>Margherita Hack</data>
+    <data key='username'>Margherita Hack</data>
     <data key='password'>password</data>
     <data key='level'>3</data>
 </node>
 <node id='5'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
-    <data key='name'>Rita Levi Montalcini</data>
+    <data key='username'>Rita Levi Montalcini</data>
     <data key='password'>password</data>
     <data key='level'>3</data>
 </node>
 <node id='6'>
     <data key='labelV'>user</data>
     <data key='label_vp'>user</data>
-    <data key='name'>Alexander Fleming</data>
+    <data key='username'>Alexander Fleming</data>
     <data key='password'>password</data>
     <data key='level'>3</data>
 </node>
