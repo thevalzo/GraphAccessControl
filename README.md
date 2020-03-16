@@ -1,1 +1,1 @@
-# JanusgraphAccessControl
+# GraphAccessControl
